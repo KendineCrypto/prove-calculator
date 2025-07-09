@@ -86,7 +86,7 @@ const SuccinctAirdropCalculator: React.FC = () => {
 
     const airdropPercent = parseFloat(totalTokensPercentage || '0').toFixed(1)
 
-    const tweetText = `${airdropPercent}% of the total supply is allocated for airdrop.\n\nAccording to me, the Succinct airdrop will be distributed like this:\n\n${allocationText}\n\n#Succinct #Airdrop #PROVE`
+    const tweetText = `🚀 Succinct Airdrop Calculator Results!\n\n${airdropPercent}% of total supply allocated for airdrop.\n\nMy prediction for $PROVE distribution:\n\n${allocationText}\n\nTry it yourself: https://succinct-prove-calculator.vercel.app/\n\n#Succinct #Airdrop #PROVE #Web3`
 
     try {
       // Always screenshot the hidden full results area
